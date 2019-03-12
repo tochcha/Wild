@@ -1,0 +1,271 @@
+@media only screen and (max-width : 1599px) {
+	.header-top .logo {
+		margin-right: 32px;
+	}
+
+	.header-content:after {
+		left: 25%;
+	}
+}
+
+
+/* <=1199 */
+@media only screen and (max-width : 1199px) {
+	.header-top .logo {
+		margin-right: 32px;
+	}
+
+	.header-content:after {
+		left: 15%;
+	}
+	
+	.footer__left {
+		width: 230px;
+	}
+}
+
+/* <=1199 end */
+
+/* <=991 */
+@media only screen and (max-width : 991px) {
+	.header-top .addrlink {
+		width: 82px;
+	}
+
+	.header-top .searchform input[type=text] {
+		width: 82%;
+		padding-right: 0;
+	}
+
+	.header-content__text {
+		margin-right: 10px;
+	}
+
+	.videos {
+		margin-top: -80px;
+	}
+
+	.introtext p {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.footer__right {
+		width: 69%;
+	}
+	
+	.footer__info-item {
+		padding-right: 2px;
+	}
+}
+
+/* <=991 end */
+
+/* <=767 */
+@media only screen and (max-width : 767px) {
+	.header-top .searchform {
+		display: none;
+	}
+
+	.header-content:after {
+		display: none;
+	}
+
+	.header-content__text {
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	.coupon__box {
+		width: 360px;
+		background-size: 100% 100%;
+
+		.title {
+			letter-spacing: 0;
+			font-size: 44px;
+		}
+
+		.subtitle {
+			font-size: 14px;
+			line-height: 18px;
+			padding-left: 5px;
+			padding-right: 5px;
+
+			br {
+				display: none;
+			}
+		}
+
+		.warn {
+			font-size: 12px;
+			margin-bottom: 24px;
+			padding-left: 30px;
+			margin-left: 5px;
+			margin-right: 5px;
+
+			br {
+				display: none;
+			}
+
+			.fa {
+				font-size: 20px;
+			}
+		}
+	}
+
+	.coupon li span {
+		font-size: 13px;
+		display: block;
+		white-space: nowrap;
+	}
+
+	.coupon li span em {
+		display: inline;
+	}
+
+	.coupon li span i.mobhit {
+		display: none;
+	}
+
+	.buttonbox {
+		max-width: 100%;
+	}
+
+	button,
+	.button,
+	input[type=button],
+	input[type=submit] {
+		max-width: 100%;
+		padding-left: 12px;
+		padding-right: 12px;
+		font-size: 14px;
+	}
+	
+	.prefooter h2,
+	.reviews h2 {
+		font-size: 32px;
+	}
+	
+	.prefooter__bottom {
+		background: #fff;
+		padding-top: 32px;
+	}
+	
+	.footer {
+		padding-top: 190px;
+		height: auto;
+	}
+	
+	.footer__right,
+	.footer__left {
+		width: 100%;
+		float: none;
+		padding-bottom: 12px;
+	}
+	.buttonbox {
+		button,
+		.button,
+		.button {
+			&:after {
+				right: 22px !important;
+			}
+		}
+	}
+}
+
+/* <=767 end */
+
+/* <=599 */
+@media only screen and (max-width : 599px) {
+
+	.h1,
+	h1 {
+		font-size: 35px;
+	}
+
+	.videos {
+		display: block;
+
+		li {
+			max-width: 100%;
+			text-align: left;
+			width: 378px;
+			max-width: 100%;
+			margin: 0 auto 32px;
+		}
+	}
+}
+
+/* <=599 end */
+
+/* <=479 */
+@media only screen and (max-width : 479px) {
+	.header-top .wrapper {
+		height: auto;
+	}
+
+	.header-top .addrlink {
+		display: none;
+	}
+
+	.header-top .logo {
+		width: 196px;
+		margin-right: 0;
+
+		img {
+			height: auto;
+		}
+	}
+
+	.header-top .loginbox {
+		padding-top: 5px;
+		padding-bottom: 0;
+	}
+
+	.loginbox__cart {
+		text-align: center;
+		font-size: 13px;
+	}
+
+	.h1,
+	h1 {
+		font-size: 27px;
+	}
+	
+	.prefooter h2,
+	.reviews h2 {
+		font-size: 26px;
+	}
+	
+	.footer__right ul {
+		text-align: center;
+		display: block;
+		li {
+			display: inline-block;
+			padding: 0 12px 12px;
+		}
+	}
+}
+
+/* <=479 end */
+
+@media only screen and (max-width : 390px) {
+	.coupon__box {
+		margin-left: -5px;
+	}
+}
+
+// for retina
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+	.retina {
+		background-image: url(example@2x.png);
+	}
+}
+
+/* Портретная ориентация шаблона */
+@media screen and (orientation:portrait) {
+
+}
